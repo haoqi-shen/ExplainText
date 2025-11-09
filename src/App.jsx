@@ -48,21 +48,17 @@ function App() {
         <div className="container">
           <div className="hero-content">
             <h1 className="hero-title">
-              <span className="title-icon">⚡</span> The Intelligence Behind LiteDetect
+              AI Text Detection, Explained
             </h1>
             <p className="hero-subtitle">
-              What makes LiteDetect different isn't size — it's clarity.
-            </p>
-            <p className="hero-description">
-              Built from cutting-edge research in AI text forensics, it detects machine-generated 
-              writing without a giant model or GPU.
+              Fast, transparent, and precise. LiteDetect analyzes writing style to identify AI-generated content with 97%+ accuracy — no GPU required.
             </p>
             <div className="hero-cta">
               <button className="btn-primary" onClick={() => scrollToSection('demo')}>
                 Try Demo
               </button>
               <button className="btn-secondary" onClick={() => scrollToSection('sdk')}>
-                View Documentation
+                Documentation
               </button>
             </div>
           </div>
@@ -72,41 +68,37 @@ function App() {
       {/* Features Section */}
       <section id="features" className="features">
         <div className="container">
-          <h2 className="section-title">Why LiteDetect?</h2>
+          <h2 className="section-title">Key Features</h2>
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">🧩</div>
               <h3>Stylometric DNA</h3>
               <p>
-                LiteDetect analyzes the "style fingerprint" of text: sentence rhythm, 
-                lexical diversity, syntactic depth.
+                Analyzes linguistic patterns including sentence rhythm, lexical diversity, and syntactic depth.
               </p>
             </div>
             
             <div className="feature-card">
               <div className="feature-icon">🧠</div>
-              <h3>Hybrid Precision</h3>
+              <h3>Hybrid ML Architecture</h3>
               <p>
-                A 1D-CNN captures subtle writing patterns, while a Random Forest explains 
-                why a piece sounds AI-made.
+                Combines 1D-CNN pattern recognition with Random Forest explainability for transparent results.
               </p>
             </div>
             
             <div className="feature-card">
               <div className="feature-icon">🚀</div>
-              <h3>Lightning Fast</h3>
+              <h3>97%+ Accuracy</h3>
               <p>
-                97%+ Accuracy · 0 GPUs · &lt;100 ms latency — lightweight enough for browsers, 
-                powerful enough for enterprise.
+                &lt;100ms latency with zero GPU requirements. Lightweight for browsers, powerful for enterprise.
               </p>
             </div>
             
             <div className="feature-card">
               <div className="feature-icon">🔍</div>
-              <h3>Explainable by Design</h3>
+              <h3>Explainable Results</h3>
               <p>
-                Every decision backed by measurable linguistic signals, not hidden probabilities. 
-                LiteDetect turns AI detection from a black box into a glass one.
+                Every prediction backed by measurable linguistic signals. Complete transparency, no black boxes.
               </p>
             </div>
           </div>
@@ -116,33 +108,31 @@ function App() {
       {/* About/Usage Section */}
       <section id="about" className="about">
         <div className="container">
-          <h2 className="section-title">How to Use LiteDetect</h2>
+          <h2 className="section-title">How It Works</h2>
           <div className="about-content">
             <div className="about-text">
-              <h3>Fast, Clear, and Built for Trust</h3>
+              <h3>Seamless Integration</h3>
               <p>
-                LiteDetect is designed for seamless integration into your workflow. Whether you're 
-                a researcher, educator, content moderator, or enterprise developer, our platform 
-                provides the tools you need.
+                LiteDetect integrates into your workflow in minutes. Deploy as an API, embed in your application, or use our web interface.
               </p>
               
               <div className="use-cases">
                 <h4>Use Cases</h4>
                 <ul>
-                  <li><strong>Education:</strong> Maintain academic integrity with fast, reliable detection</li>
-                  <li><strong>Content Moderation:</strong> Identify AI-generated content at scale</li>
-                  <li><strong>Research:</strong> Analyze writing patterns with explainable metrics</li>
-                  <li><strong>Enterprise:</strong> Build trust with transparent, auditable results</li>
+                  <li><strong>Education:</strong> Maintain academic integrity</li>
+                  <li><strong>Content Moderation:</strong> Scale AI detection</li>
+                  <li><strong>Research:</strong> Analyze writing patterns</li>
+                  <li><strong>Enterprise:</strong> Transparent, auditable results</li>
                 </ul>
               </div>
 
               <div className="how-it-works">
-                <h4>How It Works</h4>
+                <h4>Process</h4>
                 <ol>
-                  <li>Submit your text through our API or web interface</li>
-                  <li>Our hybrid model analyzes linguistic features in real-time</li>
-                  <li>Receive detailed results with confidence scores and explanations</li>
-                  <li>Review the stylometric breakdown to understand the decision</li>
+                  <li>Submit text via API or web interface</li>
+                  <li>Analyze linguistic features in real-time</li>
+                  <li>Receive detailed results with confidence scores</li>
+                  <li>Review stylometric breakdown</li>
                 </ol>
               </div>
             </div>
@@ -154,11 +144,11 @@ function App() {
               </div>
               <div className="stat-box">
                 <div className="stat-number">&lt;100ms</div>
-                <div className="stat-label">Latency</div>
+                <div className="stat-label">Response Time</div>
               </div>
               <div className="stat-box">
                 <div className="stat-number">0</div>
-                <div className="stat-label">GPUs Required</div>
+                <div className="stat-label">GPU Required</div>
               </div>
             </div>
           </div>
@@ -168,39 +158,39 @@ function App() {
       {/* Demo Section */}
       <section id="demo" className="demo">
         <div className="container">
-          <h2 className="section-title">Try LiteDetect Now</h2>
-          <p className="section-subtitle">Experience the power of explainable AI detection</p>
+          <h2 className="section-title">Try Demo</h2>
+          <p className="section-subtitle">Test AI text detection in real-time</p>
           
           <div className="demo-container">
             <div className="demo-input">
-              <label htmlFor="demo-text">Paste your text here:</label>
+              <label htmlFor="demo-text">Input Text</label>
               <textarea
                 id="demo-text"
-                placeholder="Enter or paste text to analyze..."
+                placeholder="Paste text to analyze..."
                 rows="10"
               ></textarea>
-              <button className="btn-primary demo-btn">Analyze Text</button>
+              <button className="btn-primary demo-btn">Analyze</button>
             </div>
             
             <div className="demo-output">
-              <h3>Analysis Results</h3>
+              <h3>Results</h3>
               <div className="result-placeholder">
-                <p>Results will appear here after analysis</p>
+                <p>Analysis results will appear here</p>
                 <div className="result-preview">
                   <div className="result-item">
-                    <span className="result-label">Detection Probability:</span>
+                    <span className="result-label">AI Probability</span>
                     <span className="result-value">--</span>
                   </div>
                   <div className="result-item">
-                    <span className="result-label">Lexical Diversity:</span>
+                    <span className="result-label">Lexical Diversity</span>
                     <span className="result-value">--</span>
                   </div>
                   <div className="result-item">
-                    <span className="result-label">Syntactic Depth:</span>
+                    <span className="result-label">Syntactic Depth</span>
                     <span className="result-value">--</span>
                   </div>
                   <div className="result-item">
-                    <span className="result-label">Sentence Rhythm:</span>
+                    <span className="result-label">Sentence Rhythm</span>
                     <span className="result-value">--</span>
                   </div>
                 </div>
@@ -213,8 +203,8 @@ function App() {
       {/* SDK Section */}
       <section id="sdk" className="sdk">
         <div className="container">
-          <h2 className="section-title">SDK & Integration</h2>
-          <p className="section-subtitle">Integrate LiteDetect into your application in minutes</p>
+          <h2 className="section-title">Developer SDK</h2>
+          <p className="section-subtitle">Integrate in minutes with our simple API</p>
           
           <div className="sdk-content">
             <div className="sdk-tabs">
@@ -258,53 +248,50 @@ print(f"Features: {result.features}")`}</code>
       {/* Partners Section */}
       <section id="partners" className="partners">
         <div className="container">
-          <h2 className="section-title">Partnerships & Collaboration</h2>
-          <p className="section-subtitle">Join leading organizations using LiteDetect</p>
+          <h2 className="section-title">Partnerships</h2>
+          <p className="section-subtitle">Built for collaboration and scale</p>
           
           <div className="partnership-types">
             <div className="partnership-card">
-              <h3>🤝 Enterprise Partnership</h3>
+              <h3>Enterprise</h3>
               <p>
-                Scale AI detection across your organization with dedicated support, 
-                custom integration, and SLA guarantees.
+                Scale AI detection across your organization with dedicated support and custom SLAs.
               </p>
               <ul>
                 <li>Priority API access</li>
                 <li>Custom model training</li>
-                <li>Dedicated support team</li>
-                <li>On-premise deployment options</li>
+                <li>Dedicated support</li>
+                <li>On-premise deployment</li>
               </ul>
               <button className="btn-secondary">Contact Sales</button>
             </div>
             
             <div className="partnership-card">
-              <h3>🎓 Academic Partnership</h3>
+              <h3>Academic</h3>
               <p>
-                Collaborate on research, get early access to new features, and contribute 
-                to the advancement of AI text forensics.
+                Research collaboration with early feature access and contribution opportunities.
               </p>
               <ul>
                 <li>Free academic licenses</li>
                 <li>Research collaboration</li>
-                <li>Access to datasets</li>
+                <li>Dataset access</li>
                 <li>Co-publication opportunities</li>
               </ul>
               <button className="btn-secondary">Apply Now</button>
             </div>
             
             <div className="partnership-card">
-              <h3>💼 Integration Partner</h3>
+              <h3>Integration</h3>
               <p>
-                Build LiteDetect into your platform and provide AI detection to your users 
-                with our partner program.
+                Build LiteDetect into your platform with our partner program and revenue sharing.
               </p>
               <ul>
                 <li>Revenue sharing</li>
-                <li>Technical integration support</li>
-                <li>Co-marketing opportunities</li>
-                <li>Partner portal access</li>
+                <li>Technical support</li>
+                <li>Co-marketing</li>
+                <li>Partner portal</li>
               </ul>
-              <button className="btn-secondary">Join Partner Program</button>
+              <button className="btn-secondary">Learn More</button>
             </div>
           </div>
         </div>
@@ -316,10 +303,10 @@ print(f"Features: {result.features}")`}</code>
           <div className="footer-content">
             <div className="footer-section">
               <h3 className="footer-logo">
-                <span className="logo-icon">⚡</span> LiteDetect
+                LiteDetect
               </h3>
               <p className="footer-tagline">
-                Fast, Explainable AI Text Detection
+                AI Text Detection, Explained
               </p>
               <div className="social-links">
                 <a href="#" aria-label="GitHub">GitHub</a>
