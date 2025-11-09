@@ -70,41 +70,78 @@ function App() {
         <div className="container">
           <h2 className="section-title">Key Features</h2>
           
-          {/* Hero Feature - Hybrid ML Architecture */}
-          <div className="hero-feature">
-            <div className="hero-feature-card">
-              <div className="hero-feature-icon">🧠</div>
-              <h3>Hybrid ML Architecture</h3>
-              <p>
-                Fuses neural networks with linguistic intelligence for real-time, interpretable results.
-              </p>
+          {/* Split Narrative Layout - Alternating Left/Right */}
+          <div className="split-narrative">
+            {/* Feature 1 - Left Content, Right Visual */}
+            <div className="narrative-row">
+              <div className="narrative-content">
+                <div className="narrative-icon">🧩</div>
+                <h3>StyloMetric DNA</h3>
+                <p>
+                  Maps sentence rhythm and lexical depth to identify unique writing patterns.
+                </p>
+              </div>
+              <div className="narrative-visual">
+                <div className="visual-placeholder">
+                  <div className="visual-decoration">
+                    <span className="decoration-icon">📊</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
-          {/* Supporting Features Grid */}
-          <div className="features-grid">
-            <div className="feature-card">
-              <div className="feature-icon">🧩</div>
-              <h3>StyloMetric DNA</h3>
-              <p>
-                Maps sentence rhythm and lexical depth to identify unique writing patterns.
-              </p>
+            {/* Feature 2 - Right Content, Left Visual */}
+            <div className="narrative-row reverse">
+              <div className="narrative-visual">
+                <div className="visual-placeholder">
+                  <div className="visual-decoration">
+                    <span className="decoration-icon">🧠</span>
+                  </div>
+                </div>
+              </div>
+              <div className="narrative-content">
+                <div className="narrative-icon">🤖</div>
+                <h3>Hybrid ML Architecture</h3>
+                <p>
+                  Fuses neural networks with linguistic intelligence for real-time, interpretable results.
+                </p>
+              </div>
             </div>
-            
-            <div className="feature-card">
-              <div className="feature-icon">🔍</div>
-              <h3>Explainable AI</h3>
-              <p>
-                Provides measurable metrics for every prediction, ensuring transparency.
-              </p>
+
+            {/* Feature 3 - Left Content, Right Visual */}
+            <div className="narrative-row">
+              <div className="narrative-content">
+                <div className="narrative-icon">🔍</div>
+                <h3>Explainable AI</h3>
+                <p>
+                  Provides measurable metrics for every prediction, ensuring transparency.
+                </p>
+              </div>
+              <div className="narrative-visual">
+                <div className="visual-placeholder">
+                  <div className="visual-decoration">
+                    <span className="decoration-icon">📈</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            
-            <div className="feature-card">
-              <div className="feature-icon">🚀</div>
-              <h3>Real-Time Accuracy</h3>
-              <p>
-                97%+ verified precision, &lt;100 ms latency, CPU-only runtime.
-              </p>
+
+            {/* Feature 4 - Right Content, Left Visual */}
+            <div className="narrative-row reverse">
+              <div className="narrative-visual">
+                <div className="visual-placeholder">
+                  <div className="visual-decoration">
+                    <span className="decoration-icon">⚡</span>
+                  </div>
+                </div>
+              </div>
+              <div className="narrative-content">
+                <div className="narrative-icon">🚀</div>
+                <h3>Real-Time Accuracy</h3>
+                <p>
+                  97%+ verified precision, &lt;100 ms latency, CPU-only runtime.
+                </p>
+              </div>
             </div>
           </div>
         </div>
