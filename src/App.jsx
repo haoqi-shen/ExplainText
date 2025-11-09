@@ -69,36 +69,41 @@ function App() {
       <section id="features" className="features">
         <div className="container">
           <h2 className="section-title">Key Features</h2>
+          
+          {/* Hero Feature - Hybrid ML Architecture */}
+          <div className="hero-feature">
+            <div className="hero-feature-card">
+              <div className="hero-feature-icon">🧠</div>
+              <h3>Hybrid ML Architecture</h3>
+              <p>
+                Fuses neural networks with linguistic intelligence for real-time, interpretable results.
+              </p>
+            </div>
+          </div>
+
+          {/* Supporting Features Grid */}
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">🧩</div>
-              <h3>Stylometric DNA</h3>
+              <h3>StyloMetric DNA</h3>
               <p>
-                Analyzes linguistic patterns including sentence rhythm, lexical diversity, and syntactic depth.
-              </p>
-            </div>
-            
-            <div className="feature-card">
-              <div className="feature-icon">🧠</div>
-              <h3>Hybrid ML Architecture</h3>
-              <p>
-                Combines 1D-CNN pattern recognition with Random Forest explainability for transparent results.
-              </p>
-            </div>
-            
-            <div className="feature-card">
-              <div className="feature-icon">🚀</div>
-              <h3>97%+ Accuracy</h3>
-              <p>
-                &lt;100ms latency with zero GPU requirements. Lightweight for browsers, powerful for enterprise.
+                Maps sentence rhythm and lexical depth to identify unique writing patterns.
               </p>
             </div>
             
             <div className="feature-card">
               <div className="feature-icon">🔍</div>
-              <h3>Explainable Results</h3>
+              <h3>Explainable AI</h3>
               <p>
-                Every prediction backed by measurable linguistic signals. Complete transparency, no black boxes.
+                Provides measurable metrics for every prediction, ensuring transparency.
+              </p>
+            </div>
+            
+            <div className="feature-card">
+              <div className="feature-icon">🚀</div>
+              <h3>Real-Time Accuracy</h3>
+              <p>
+                97%+ verified precision, &lt;100 ms latency, CPU-only runtime.
               </p>
             </div>
           </div>
